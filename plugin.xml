@@ -12,7 +12,7 @@
                 <param name="android-package" value="com.bionworks.bionsmartlockplugin.BionSmartLockPlugin" />
             </feature>
         </config-file>
-        <framework src="com.google.android.gms:play-services-auth:18.1.0" />
+        <framework src="com.google.android.gms:play-services-auth:16.0.0" />
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/BionSmartLockPlugin.java" target-dir="src/com/bionworks/bionsmartlockplugin/BionSmartLockPlugin" />
     </platform>
