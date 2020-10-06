@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.bionworks.bionsmartlockplugin" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>BionSmartLockPlugin</name>
+    <js-module name="BionSmartLockPlugin" src="www/BionSmartLockPlugin.js">
+        <clobbers target="cordova.plugins.BionSmartLockPlugin" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="BionSmartLockPlugin">
+                <param name="android-package" value="com.bionworks.bionsmartlockplugin.BionSmartLockPlugin" />
+            </feature>
+        </config-file>
+        <framework src="com.google.android.gms:play-services-auth:18.1.0" />
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/BionSmartLockPlugin.java" target-dir="src/com/bionworks/bionsmartlockplugin/BionSmartLockPlugin" />
+    </platform>
+</plugin>

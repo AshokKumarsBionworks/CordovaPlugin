@@ -1,0 +1,17 @@
+{
+  "name": "com.bionworks.bionsmartlockplugin",
+  "version": "1.0.0",
+  "description": "Used to save and retrieve credentials using google smartlock",
+  "cordova": {
+    "id": "com.bionworks.bionsmartlockplugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Ashokkumar TS",
+  "license": "ISC"
+}
