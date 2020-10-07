@@ -4,7 +4,6 @@ import android.content.IntentSender;
 import android.os.Bundle;
 import android.util.Log;
 import android.content.Intent;
-import androidx.annotation.NonNull;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
